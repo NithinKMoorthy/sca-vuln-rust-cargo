@@ -1,0 +1,13 @@
+[package]
+name = "sca-vuln-rust-cargo"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+hyper = "=0.12.35"
+smallvec = "=0.6.9"
+time = "=0.1.42"
+chrono = "=0.4.19"
+tokio = "=0.2.21"
+regex = "=1.5.4"
+openssl = "=0.10.24"
